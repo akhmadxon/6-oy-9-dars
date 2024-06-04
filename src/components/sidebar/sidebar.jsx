@@ -4,7 +4,7 @@ NavLink
 const Sidebar = () => {
   return (
     <div className='sidebar'>
-        <h1>Sidebar</h1>
+        <h1 className= "sidebarh1">Sidebar</h1>
         <NavLink to="/main" className="navlink" >
             Users
         </NavLink>

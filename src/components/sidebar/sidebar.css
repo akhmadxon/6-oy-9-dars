@@ -1,7 +1,7 @@
 .sidebar {
     width: 300px;
     height: 100vh;
-    border-right: 2px solid rgb(189, 188, 188);
+    border-right: 2px solid rgb(9, 210, 9);
     display: flex;
     padding: 20px;
     flex-direction: column;
@@ -19,4 +19,11 @@
 .navlink:hover{
     background-color: rgb(17, 179, 76);
     color: #fff;
+}
+.sidebarh1{
+    background-color: green;
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
 }
