@@ -14,6 +14,7 @@ import Albums from "../pages/albums/albums"
 import Comments from "../pages/comments/comments"
 import Todos from "../pages/todos/todos"
 import Photos from "../pages/photos/photos";
+import Newproject from "../pages/add-car/add-car";
 const Index = () => {
     const router = createBrowserRouter(
         createRoutesFromElements(
@@ -27,10 +28,9 @@ const Index = () => {
             <Route path="comments" element={<Comments/>}/>
             <Route path="todos" element={<Todos/>}/>
             <Route path="photos" element={<Photos/>}/>
-
+            <Route path="newproject" element={<Newproject/>}/>
             </Route>
-            
-            // </Route>
+             </Route>
         )
     );
     return <RouterProvider router={router}/>

@@ -4,7 +4,10 @@ NavLink
 const Sidebar = () => {
   return (
     <div className='sidebar'>
-        <h1 className= "sidebarh1">Sidebar</h1>
+        <h1 className='sidebarh1'>Sidebar</h1>
+        <NavLink to="/main/newproject" className="navlink" >
+        Add-Car
+        </NavLink>
         <NavLink to="/main" className="navlink" >
             Users
         </NavLink>
@@ -23,6 +26,8 @@ const Sidebar = () => {
         <NavLink to="/main/photos" className="navlink" >
            Photos
         </NavLink>
+        
+        
     </div>
   )
 }
