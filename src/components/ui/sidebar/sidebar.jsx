@@ -5,15 +5,16 @@ const Sidebar = () => {
   return (
     <div className='sidebar'>
         <h1 className='sidebarh1'>Sidebar</h1>
+        <NavLink to="/main/brand" className="navlink" >
+           Posts
+        </NavLink>
         <NavLink to="/main/newproject" className="navlink" >
         Add-Car
         </NavLink>
         <NavLink to="/main" className="navlink" >
             Users
         </NavLink>
-        <NavLink to="/main/brand" className="navlink" >
-           Posts
-        </NavLink>
+        
         <NavLink to="/main/albums" className="navlink" >
            Albums
         </NavLink>
