@@ -21,9 +21,9 @@ const Index = () => {
             <Route path="/" element={<App/>}>
             <Route index element={<Login/>}/>
             <Route path="main/*" element={<Main/>}>
-            <Route index element={<Cars/>}/>
+            <Route index element={<Brand/>}/>
             <Route path="single-car/:id" element={<SingleCar/>}/>
-            <Route path="brand" element={<Brand/>}/>
+            <Route path="cars" element={<Cars/>}/>
             <Route path="albums" element={<Albums/>}/>
             <Route path="comments" element={<Comments/>}/>
             <Route path="todos" element={<Todos/>}/>
